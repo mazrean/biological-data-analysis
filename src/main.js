@@ -7,8 +7,7 @@ const init = async () => {
   const app = new App({
     target: document.body,
     props: {
-      // https://svelte.dev/docs#Creating_a_component
-      greet: phylogeneticTree.greet,
+      input: phylogeneticTree.input,
     },
   });
 };

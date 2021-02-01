@@ -1,6 +1,6 @@
 <script>
-	export let greet;
-	greet();
+	export let input;
+	input("ATGC");
 </script>
 
 <main>
